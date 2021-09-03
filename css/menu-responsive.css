@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.main-content {
+    margin: 30px;
+}
+header {
+    width: 100%;
+}
+.menu-bar {
+    display: none;
+}
+nav {
+    background: rgba(255, 127, 80, 0.753);
+    width: 100%;
+}
+ul {
+    list-style: none;
+}
+nav ul {
+    text-align: right;
+}
+nav ul li {
+    display: inline-block;
+}
+nav ul li:hover {
+    background: rgb(207, 120, 88);
+}
+nav ul li span {
+    margin-right: 10px;
+}
+nav ul li .icon-chevron-small-down {
+    position: relative;
+    top: 3px;
+    margin-left: 10px;
+
+}
+nav ul li:hover .children{
+display: block;
+}
+a {
+    display: block;
+    color: black;
+    padding: 20px;
+    text-decoration: none;
+}
+.children {
+    display: none;
+    position: absolute;
+    background: coral;
+}
+.children li {
+    display: block;
+    overflow: hidden;
+}
+.children li a {
+    color: black;
+    display: block;
+    text-align: left;
+}
+h1 {
+    text-align: left;
+    
+}
+p {
+    font-size: 1.2em;
+    line-height: 1.4em;
+    text-align: justify;
+    margin: 30px;
+}
+@media only screen and (max-width:780px) {
+    body {
+        padding-top: 68px;
+    }
+    .menu-bar {
+        display: block;
+        position: fixed;
+        width: 100%;
+        background: coral;
+        top: 0;
+    }
+.bt-menu {
+    display: block;
+    padding: 20px;
+    color: cornsilk;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.menu-bar span {
+float: right;
+font-size: 40px;
+}
+nav {
+width: 75%;
+}
+
+nav ul li {
+    display: block;
+    border-bottom: 1px solid rgb(247, 246, 246);
+}
+.children li {
+    display: none;
+}
+}
