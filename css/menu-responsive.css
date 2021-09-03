@@ -2,14 +2,25 @@
     margin: 0;
     padding: 0;
 }
-.main-content {
-    margin: 30px;
+h1 {
+    text-align: center;
+}
+body {
+    background: crimson;
+}
+.menu-bar {
+    display: none;
 }
 header {
     width: 100%;
 }
-.menu-bar {
-    display: none;
+header nav {
+    background: coral;
+    width: 100%;
+}
+nav ul {
+    list-style: none;
+    text-align: right;
 }
 nav {
     background: rgba(255, 127, 80, 0.753);
