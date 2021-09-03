@@ -60,14 +60,13 @@ a {
     text-align: left;
 }
 h1 {
-    text-align: left;
-    
+    text-align: right;
+    margin: 30px;
 }
 p {
     font-size: 1.2em;
     line-height: 1.4em;
     text-align: justify;
-    margin: 30px;
 }
 @media only screen and (max-width:780px) {
     body {
@@ -93,14 +92,20 @@ float: right;
 font-size: 40px;
 }
 nav {
-width: 75%;
+width: 100%;
+position: fixed;
+height: calc(100% - 80px);
+background: coral;
+font-size: 1.2em;
+left: -100%;
 }
-
+nav ul {
+    text-align: center;
+}
 nav ul li {
     display: block;
     border-bottom: 1px solid rgb(247, 246, 246);
 }
 .children li {
     display: none;
-}
 }
