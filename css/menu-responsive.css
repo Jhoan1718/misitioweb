@@ -6,7 +6,7 @@ h1 {
     text-align: center;
 }
 body {
-    background: crimson;
+    background: rgba(240, 240, 240, 0.527);
 }
 .menu-bar {
     display: none;
@@ -15,7 +15,7 @@ header {
     width: 100%;
 }
 header nav {
-    background: coral;
+    background: rgb(1, 233, 214);
     width: 100%;
 }
 nav ul {
@@ -23,7 +23,7 @@ nav ul {
     text-align: right;
 }
 nav {
-    background: rgba(255, 127, 80, 0.753);
+    background: rgba(4, 130, 139, 0.753);
     width: 100%;
 }
 ul {
@@ -36,7 +36,7 @@ nav ul li {
     display: inline-block;
 }
 nav ul li:hover {
-    background: rgb(207, 120, 88);
+    background: rgb(13, 136, 145);
 }
 nav ul li span {
     margin-right: 10px;
@@ -59,7 +59,7 @@ a {
 .children {
     display: none;
     position: absolute;
-    background: coral;
+    background: rgb(13, 136, 145);
 }
 .children li {
     display: block;

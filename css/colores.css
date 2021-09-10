@@ -3,15 +3,15 @@ p {
     font-size: 2em;
 }
 .color-violeta {
-    color: violet; 
+    color: rgb(0, 255, 34); 
 }
 .color-azul {
     color: rgb(0, 0, 255); 
 }
 .color-verde {
-    color: #00ff00;  
+    color: #ff1100;  
 
 }
 .color-coofisam {
-    color: rgb(211, 0, 21); 
+    color: rgb(1, 255, 86); 
 }
