@@ -13,11 +13,11 @@ h1 {
 .punta {
     width: 250px;
     height: 250px;
-    background-color: blueviolet;
+    background-color: rgb(0, 68, 255);
     display: inline-block;
     border-radius: 15px;
     margin: 15px;
-    box-shadow: 10px 10px 10px rgb(83, 19, 143);
+    box-shadow: 10px 10px 10px rgb(2, 51, 124);
 }
 .main-box2 {
     display: block;
@@ -27,20 +27,20 @@ h1 {
 .caja-1 {
     width: 250px;
     height: 250px;
-    background-color: yellow;
+    background-color: rgb(255, 0, 0);
     display: inline-block;
     margin: 15px;
     border-radius: 15px;
-    box-shadow: 10px 10px 10px rgb(163, 163, 3);
+    box-shadow: 10px 10px 10px rgb(121, 3, 3);
 }
 .caja-2 {
     width: 250px;
     height: 250px;
-    background-color: black;
+    background-color: rgb(123, 255, 0);
     display: inline-block;
     margin: 15px;
     border-radius: 15px;
-    box-shadow: 10px 10px 10px rgb(32, 31, 31);
+    box-shadow: 10px 10px 10px rgb(4, 85, 4);
 }
 .main-box {
     display: block;
@@ -56,14 +56,14 @@ h1 {
     box-shadow: 15px 15px 20px;
 }
 .box-1 {
-    background-color: darkcyan;
-    box-shadow: 10px 10px 10px rgb(2, 82, 82);
+    background-color: rgb(0, 195, 255);
+    box-shadow: 10px 10px 10px rgb(1, 95, 119);
 }
 .box-2 {
-    background-color: gray;
-    box-shadow: 10px 10px 10px rgb(95, 94, 94);
+    background-color: rgb(73, 73, 73);
+    box-shadow: 10px 10px 10px rgb(25, 25, 26);
 }
 .box-3 {
-    background-color: yellowgreen;
-    box-shadow: 10px 10px 10px rgb(120, 161, 38);
+    background-color: rgb(255, 153, 0);
+    box-shadow: 10px 10px 10px rgb(136, 94, 5);
 }
