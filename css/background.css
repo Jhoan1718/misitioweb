@@ -3,8 +3,26 @@
     padding: 0;
 }
 .main {
-    background-image: url("../img/mercedes-benz-blanco-en-un-fondo-transparente-77057119.jpg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 300px;
+    background-image: url("../img//iniciar-sesion.jpg");
+    width: 90%;
+    height: 95vh;
 }
+body {
+    background-image: url(../img/atardecer-coloridos-paisajes-naturales.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media only screen and (max-width:800px) {
+body {
+    background-image: url(../img/marca\ de\ agua1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+}
+@media only screen and (max-width:600px) {
+    body {
+        background-image: url(../img/marca\ de\ agua2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        }
+        }
