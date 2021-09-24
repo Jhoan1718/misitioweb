@@ -1,0 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.main {
+    background-image: url("../img/mercedes-benz-blanco-en-un-fondo-transparente-77057119.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 300px;
+}
