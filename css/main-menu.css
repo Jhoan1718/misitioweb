@@ -56,7 +56,7 @@ i {
 }
 .linea-item {
     border-radius: 0;
-    border-top: 1px solid rgba(0, 0, 0, 0.6);
+    border-top: 1px solid rgba(20, 20, 20, 0.6);
 } 
 /* roboto-regular - latin */
 @font-face {
