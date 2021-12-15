@@ -15,7 +15,7 @@ header {
     width: 100%;
 }
 header nav {
-    background: rgb(1, 233, 214);
+    background: rgb(240, 128, 128);
     width: 100%;
 }
 nav ul {
@@ -23,7 +23,7 @@ nav ul {
     text-align: right;
 }
 nav {
-    background: rgba(4, 130, 139, 0.753);
+    background: rgb(199, 102, 102);
     width: 100%;
 }
 ul {
@@ -36,7 +36,7 @@ nav ul li {
     display: inline-block;
 }
 nav ul li:hover {
-    background: rgb(13, 136, 145);
+    background: rgb(226, 85, 85);
 }
 nav ul li span {
     margin-right: 10px;
@@ -59,7 +59,7 @@ a {
 .children {
     display: none;
     position: absolute;
-    background: rgb(13, 136, 1454);
+    background: rgb(243, 173, 173);
 }
 .children li {
     display: block;
@@ -106,7 +106,7 @@ nav {
 width: 100%;
 position: fixed;
 height: calc(100% - 80px);
-background: coral;
+background: rgb(238, 63, 63);
 font-size: 1.2em;
 left: -100%;
 }

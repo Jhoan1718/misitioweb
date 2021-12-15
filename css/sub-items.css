@@ -9,7 +9,7 @@ nav {
 ul {
     list-style: none;
     position: absolute;
-    background: rgb(35,135,245);
+    background: rgb(220, 20, 60);
     width: 100%;
 }
 a {
@@ -25,14 +25,14 @@ a {
     text-align: right;
 }
 a:hover {
-    background: rgb(27,89,254);
+    background: rgb(134, 32, 14);
     transition: all .3s;
 }
 .sub-item {
     text-align: center;
     transition: all 1.5s;
     max-height: 0;
-    background: rgb(52,163,228);
+    background: rgb(230, 68, 101);
 }
 .item:hover .sub-item {
     display: block;
