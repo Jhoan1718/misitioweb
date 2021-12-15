@@ -59,7 +59,7 @@ a {
 .children {
     display: none;
     position: absolute;
-    background: rgb(243, 173, 173);
+    background: rgb(243, 173, 174);
 }
 .children li {
     display: block;
@@ -106,7 +106,7 @@ nav {
 width: 100%;
 position: fixed;
 height: calc(100% - 80px);
-background: rgb(238, 63, 63);
+background: rgb(255, 80, 80);
 font-size: 1.2em;
 left: -100%;
 }
