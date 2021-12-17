@@ -1,8 +1,8 @@
 * {
     margin: 0;
     padding: 0;
-
 }
+
 nav {
     position: fixed;
     height: 100%;
@@ -20,6 +20,7 @@ ul {
     width: 95%;
     background-color: rgb(226, 222, 222);
 }
+
 a {
     text-decoration: none;
     color: rgb(49, 46, 49);
@@ -33,15 +34,12 @@ a {
     display: none;
     position: absolute;
     background-color: rgba(233, 224, 224, 0.993);s
-}
 
-a:hover {
-    background: blue;
 }
 .main-content {
     margin: 40px 40px 40px 320px;
-    text-align: justify;
-    color: rgb(0, 0, 0);
+    text-align:justify
+    color:rgb(0, 0, 0);
 }
 p {
     font-size: 1.5em;
@@ -55,6 +53,8 @@ i {
     padding-right: 30px;
 }
 .linea-item {
+    text-align: center;
+    padding: right;
     border-radius: 0;
     border-top: 1px solid rgba(20, 20, 20, 0.6);
 } 
@@ -66,7 +66,7 @@ i {
     src: <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap" rel="stylesheet"> ; /*IE9 C0mpat Modes */
-}
+
 /* roboto-500-latin */
 @font-face  {
     font-family: 'Roboto Slab', serif;
@@ -75,7 +75,7 @@ i {
     src: link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap" rel="stylesheet"> ;
-}
+
 nav ul li:hover .menu {
     display: block;
 }
