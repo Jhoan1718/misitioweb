@@ -1,84 +1,58 @@
-* {
+*
+{
     margin: 0;
     padding: 0;
+}
+body{
+    background-image:url("../img/atardecer-coloridos-paisajes-naturales.jpg");
+}
+nav
+{
+    cursor: pointer;
+    padding: 0;
+}
+ul
+{
+    list-style: none;
+    position:absolute;
+    background-color: rgb(4, 78, 163);
+    width: 100%;
 
 }
-nav {
-    position: fixed;
-    height: 100%;
-    top: 0;
-    width: 300px;
-    overflow: auto;
-    font-size: 1.2em;
+a
+{
+    display: block;
+    text-decoration: solid;
+    color: rgb(0, 0, 0);
+    padding: 1em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
 }
-ul {
-    list-style: none;
-    position: absolute;
-    top: 55px;
-    left: 5px;
-    width: 95%;
-    background-color: rgb(226, 222, 222);
-}
-a {
-    text-decoration: none;
-    color: rgb(49, 46, 49);
-    font-size: 1em;
-    display: block;
-    border-radius: 5px;
-    padding: 17px 35px;
-    font-family: 'roboto', sans-serif;
-} 
-.menu {
-    display: none;
-    position: absolute;
-    background-color: rgba(233, 224, 224, 0.993);s
-}
+/* .item
+{
+    line-height: 3em;
+    display: inline-block;
+    position: relative;
+    text-align: right;
 
-a:hover {
-    background: blue;
+} */
+
+a:hover
+{
+    background: rgb(4, 77, 119);
+    transition: all 1,5s;
 }
-.main-content {
-    margin: 40px 40px 40px 320px;
-    text-align: justify;
-    color: rgb(0, 0, 0);
-}
-p {
-    font-size: 1.5em;
-    line-height: 1.6em;
-}
-.fas, .fab {
-    width: 30px;
-    font-size: 1.2em;
-}
-i {
-    padding-right: 30px;
-}
-.linea-item {
-    border-radius: 0;
-    border-top: 1px solid rgba(20, 20, 20, 0.6);
-} 
-/* roboto-regular - latin */
-@font-face {
-    font-family: 'Roboto Slap', serif;
-    font-style: normal;
-    font-weight: 400;
-    src: <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap" rel="stylesheet"> ; /*IE9 C0mpat Modes */
-}
-/* roboto-500-latin */
-@font-face  {
-    font-family: 'Roboto Slab', serif;
-    font-style: normal;
-    font-weight: 500;
-    src: link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap" rel="stylesheet"> ;
-}
-nav ul li:hover .menu {
+.sub-item
+/* {
+    text-align: center;
+    transition: all 1.5s ;
+    max-height: 0;
+    background: darkred;
+    position: relative;
+} */
+.item:hover .sub-item
+{
     display: block;
-}
-nav ul li:hover{
-    color: rgb(238, 3, 3);
+    max-height: 500px;
+    border-bottom: 1px solid white;
 }
