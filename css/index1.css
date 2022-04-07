@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
 }
-
 nav {
     position: fixed;
     height: 100%;
@@ -18,12 +17,11 @@ ul {
     top: 55px;
     left: 5px;
     width: 95%;
-    background-color: rgb(226, 222, 222);
+    background-color: rgba(4,78,163,255);
 }
-
 a {
     text-decoration: none;
-    color: rgb(49, 46, 49);
+    color: rgb(228, 222, 222);
     font-size: 1em;
     display: block;
     border-radius: 5px;
@@ -33,13 +31,13 @@ a {
 .menu {
     display: none;
     position: absolute;
-    background-color: rgba(233, 224, 224, 0.993);s
+    background-color: rgba(233, 224, 224, 0.993);
 
 }
 .main-content {
     margin: 40px 40px 40px 320px;
     text-align:justify
-    color:rgb(0, 0, 0);
+    color: rgb(0, 0, 0); 
 }
 p {
     font-size: 1.5em;
