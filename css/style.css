@@ -10,7 +10,7 @@ body {
     background-size: cover;
 }
     ul {
-        background-color: rgba(204, 202, 202, 0.918);
+        background-color: rgba(228, 213, 213, 0.918);
         width: 15%;
         
     }
@@ -24,6 +24,7 @@ font-size: 40px;
 font-family: 'Courier New', Courier, monospace;
 }
 p.fuente-net {
+   
     font-family:  'Fjalla One', sans-serif;
 }
 .fuente-net2 {
@@ -31,6 +32,7 @@ p.fuente-net {
     font-size: 100px;
    font-family:  'Fjalla One', sans-serif;
    text-align: center;
+   
 }
 /* fjalla-one-regular - latin */
 @font-face {
