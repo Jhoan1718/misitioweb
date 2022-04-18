@@ -77,16 +77,4 @@ function MostrarVuelos(){
     let textdestino =  document.createTextNode(destino);
     destinoVuelo.appendChild(textdestino);
     destinoVuelo.setAttribute("class", "style-destino")
-
-
-        
-
-    
-  
-
-    
-
-    
-   
-
 }
