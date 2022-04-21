@@ -1,39 +1,40 @@
+
 .hijo1{
-    grid-area: hijo-3; 
-    padding: px;
+    padding: 10px;
+    border: 1px solid rgb(210, 210, 210);
+    width: 60%;
+    border-radius: 5px;
+    margin-top: 2%;
+    font-size: 17px;
+    outline: none;
+    margin-left: 5%;
 }
 .buscar{
     grid-area: buscar;
-    margin-left: 150px;
+   
     
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 17px;
-    outline: none;
-    padding: 15px;
-    margin: 15px 15%;
     
 }
 .presentacion{
     display: grid;
      grid-template: "img  buscar  uwu"/
-                    300px    1fr     150px; 
+                    200px    2fr    40px; 
 
     border-bottom: 1px solid black;
     font-size: 16px;
     
     
 } 
-.fas {
-   grid-area: uwu;
-}  
 .img{
     margin-top: 10px;
     cursor: pointer;
 }
 .bar{
-    margin-top: 20px;
-    font-size: 25px;
+    grid-area: uwu;
+    font-size: 23px;
+    margin-top: 40%;
     cursor: pointer;
+    color: rgb(155, 154, 154);
 }
 .transform4{
     position: fixed;
@@ -74,6 +75,7 @@
     right: 10px;
 }
 .boton{
+   
 background-color: aqua;
 padding: 18px;
 border-radius: 18px;
@@ -113,5 +115,13 @@ border-radius: 18px;
     margin-left: 240px;
     color: white;
 }
+.budy {
+    margin: 0;
+    padding: 0;
+    background:url(../img/home3.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
 
 
