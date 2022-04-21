@@ -9,33 +9,77 @@
     outline: none;
     margin-left: 5%;
 }
-.buscar{
-    grid-area: buscar;
-   
-    
-    
-}
+
 .presentacion{
     display: grid;
-     grid-template: "img  buscar  uwu"/
-                    200px    2fr    40px; 
+     grid-template: "img  lupa     lupa1   uwu"/
+                    200px  1fr   30px  40px; 
 
     border-bottom: 1px solid black;
     font-size: 16px;
-    
-    
 } 
-.img{
-    margin-top: 10px;
+.lupa{
+    
+    grid-area: lupa;
+    font-size: 23px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.lupa1{
+    
+    grid-area: lupa1;
+    font-size: 23px;
+    margin-top: 15px;
+    left: 300px;
+  
+  
     cursor: pointer;
 }
 .bar{
+    
     grid-area: uwu;
     font-size: 23px;
     margin-top: 40%;
     cursor: pointer;
     color: rgb(155, 154, 154);
 }
+.presentacion2{
+    display: grid;
+    grid-template: "lupa2  buscar  equis"/
+                    200px   2fr     40px;
+    font-size: 16px;
+} 
+.lupa2{
+    grid-area: lupa2;
+    position: absolute;
+    font-size: 23px;
+    margin-top: 20px;
+    cursor: pointer;
+    left: 400px;
+
+  
+}
+.buscar{
+    grid-area: buscar; 
+    position: absolute;
+    right: 300px;
+    width: 40%;
+
+}
+.equis{
+    grid-area: equis;
+    margin-top: 10px;
+    cursor: pointer;
+    position: absolute;
+    right: 300px;
+    
+}
+
+.img{
+    margin-top: 10px;
+    cursor: pointer;
+}
+
 .transform4{
     position: fixed;
     bottom: 7px;

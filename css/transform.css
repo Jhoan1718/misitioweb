@@ -40,15 +40,30 @@
     bottom: 10px;
     right: 10px;
     transition: all 600ms;  
-    background-color: rgb(109, 75, 28);
+    background-color: rgb(240, 21, 21);
 }
-.Transform4:hover{
-    transition: widt 1s, height 1s, transform 1s;
-     transform: scale(2,2);
-     transform-origin:  bottom right;
-    width: 150px;
-    height: 150px;
-   
+
+.transform5{
+    position: fixed;
+    bottom: 40px;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    transition: width 600ms, height 600ms;
+    width: 500px;
+    height: 500px;
     
+}
+.botonCerrar{
+    display:none;
+    background-color: aqua;
     
+}
+.boton{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    bottom: 10px;
+    right: 10px;
 }
