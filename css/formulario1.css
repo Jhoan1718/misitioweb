@@ -24,6 +24,7 @@ h2{
 }
 
 .valorPro{
+    
     margin-top: 30px;
     padding: 20px;
     margin-left: 10px;
@@ -32,6 +33,7 @@ h2{
     
 }
 .valorProducto {
+    grid-area: valorpro;
     padding: 10px;
     margin-bottom: 40px;
     width: 20%;
@@ -95,4 +97,9 @@ td{
     padding: 15px;
     background-color: rgb(18, 152, 206);
     color: white;
+}
+.cargar{
+    display: grid;
+    text-align: center;
+
 }
