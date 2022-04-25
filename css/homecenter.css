@@ -43,12 +43,12 @@
     cursor: pointer;
     color: rgb(155, 154, 154);
 }
-.presentacion2{
+/* .presentacion2{
     display: grid;
     grid-template: "lupa2  buscar  equis"/
                     200px   2fr     40px;
     font-size: 16px;
-} 
+}  */
 .lupa2{
     grid-area: lupa2;
     position: absolute;
@@ -63,7 +63,7 @@
     grid-area: buscar; 
     position: absolute;
     right: 300px;
-    width: 40%;
+    width: 50%;
 
 }
 .equis{
@@ -86,7 +86,7 @@
     right: 7px;
     width: 1px;
     height: 1px;
-    
+    background-color: rgba(245,245,245,255);
     transition: transform 1s, width 500ms, height 500ms;
     
 }
@@ -98,13 +98,14 @@
     height: 50px;
     border: 1px solid black;
     transition: width 600ms, height 600ms;
+    background-color: rgba(245,245,245,255);
     width: 300px;
-    height: 500px;
+    height: 600px;
     
 }
 .botonCerrar{
     display:none;
-    background-color: aqua;
+    background-color:  rgba(0,114,206,255);
     
 }
 .botonCerrarVisible{
@@ -158,6 +159,7 @@ border-radius: 18px;
     font-size: 25px;
     margin-left: 240px;
     color: white;
+  
 }
 .budy {
     margin: 0;
@@ -165,6 +167,34 @@ border-radius: 18px;
     background:url(../img/home3.jpg) no-repeat;
     background-size: cover;
     height: 100vh;
+}
+.busqueda{
+    cursor: pointer;
+}
+.texto2{
+    grid-area: texto2;
+    margin-top: 490px;
+    margin-bottom: 0%;
+    border-top: gray;
+    border-left: 0ch;
+    border-right: 0ch;
+    font-family: 'Times New Roman', Times, serif;
+    width: 87%;
+    padding: 18px;
+   outline: none;
+
+}
+.texto3{
+    display: grid;
+    grid-template: "texto2  img3"/
+                     228px    50px;
+
+}
+.imagen3{
+    grid-area: img3;
+    margin-top: 488px;
+    margin-bottom: 0%;
+    cursor: pointer;
 }
 
 

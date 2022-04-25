@@ -1,6 +1,7 @@
 let botonForm = document.getElementById("botonForm");
 let div4 = document.getElementById("div4");
 
+
 let botonCerrar = document.getElementById("botonCerrar");
 
 botonForm.addEventListener("click", mostrarForm);
@@ -20,6 +21,36 @@ function ocultarForm(){
     botonCerrar.classList.add("botonCerrar");
 
 }
+
+
+
+
+
+
+const buttonBusqueda = document.querySelector('.fa-solid fa-magnifying-glass');
+const busqueda = document.querySelector('.buscar')
+const contenido = document.querySelector('div5')
+
+buttonBusqueda.addEventListener('click', () => {
+    busqueda.classList.toggle('buscar')
+});
+
+ocultarbutton.addEventListener('click', buscar);
+
+function buscar (){
+    contenido.classList.add('presentacion2')
+    contenido.classList.remove ('presentacion')
+}
+salirBot.addEventListener('click', );
+
+
+function salir (){
+
+}
+
+
+
+
 
 
 
