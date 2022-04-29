@@ -1,135 +1,135 @@
-class Automovil {
-    constructor (marca, modelo, precio, imagen) {
-        this.Marca = marca ;
-        this.Modelo = modelo;
-        this.Precio = precio;
-        this.Imagen = imagen;
+class Motocicleta {
+    constructor (marca, modelo, precio, img){
+        this.marca = marca;
+        this.modelo = modelo;
+        this.precio = precio;
+        this.img = img;
+       
     }
-}
-let auto = new Automovil ("mazda 3", "Touring", "$ 5500000000", "imagenes/mazda-3.jpg");
-
-function validarMazda () {
-    alert(auto.Marca + "" + auto.Modelo + ""  + " El automovil que necesitas¡¡");
     
-    mostrarVehiculo();
 }
-function mostrarVehiculo() {
-    let contentPrincipal = document.getElementById("main_content");
-    let contentAuto      = document.createElement("div");
-    contentPrincipal.appendChild(contentAuto);
+let moto = new  Motocicleta("yamaha", " 3 ", " $ 20.000.000", "img/moto_Yama");
+function validarYamaha() {
+    
 
-    let marcaAuto = document.createElement("label");
-    contentAuto.appendChild(marcaAuto);
-    let textMarca = document.createTextNode(auto.Marca);
-    marcaAuto.appendChild(textMarca);
+    mostrarMoto();
+}
+function mostrarMoto (){
+    let contentPrincipal  = document.getElementById("moticos");
+    let contentMoto = document.createElement("div");
+    contentPrincipal.appendChild(contentMoto);
 
-    let modeloAuto  =  document.createElement("label");
-    contentAuto.appendChild(modeloAuto);
-    let textModelo  =  document.createTextNode(auto.Modelo);
-    modeloAuto.appendChild(textModelo);
+    let marcaMoto = document.createElement("label");
+    contentMoto.appendChild(marcaMoto);
+    let textMarca = document.createTextNode(moto.marca)
+    marcaMoto.appendChild(textMarca);
 
-    let precioAuto = document.createElement("label");
-    contentAuto.appendChild(precioAuto);
-    let textAuto = document.createTextNode(auto.Precio);
-    precioAuto.appendChild(textAuto);
+    
+    let modeloMoto = document.createElement("label");
+    contentMoto.appendChild(modeloMoto);
+    let textModelo = document.createTextNode(moto.modelo)
+    modeloMoto.appendChild(textModelo);
 
-    let imagenAuto  = document.createElement("img");
-    contentAuto.appendChild(imagenAuto);
-    imagenAuto.setAttribute("src", auto.Imagen);
+    
+    let precioMoto = document.createElement("label");
+    contentMoto.appendChild(precioMoto);
+    let textPrecio = document.createTextNode(moto.precio)
+    precioMoto.appendChild(textPrecio);
+
+ 
+    let imagenMoto = document.createElement("img");
+    contentMoto.appendChild(imagenMoto);
+    imagenMoto.setAttribute("src", moto.img);
+}
+let Deportiva = new Motocicleta ("deportiva", " 4 ", " $ 25.800.000", "img/moto_Deportiva.jpg");
+
+function validarDeportiva () {
+
+
+    mostrarDeportiva ();
 }
 
-let toyota = new Automovil ("Toyota", "Prado", "$ 219.800.000", "img/Toyota.jpg");
+function mostrarDeportiva () {
+    let contenedorPrinDeportiva = document.getElementById("moticos");
+    let contentDeportiva    = document.createElement("div");
+    contenedorPrinDeportiva.appendChild(contentDeportiva);
 
-function validarToyota () {
-    alert (toyota.Marca + " " + toyota.Modelo + " " + "El auto perfecto para salir de paseo con tu familia o amigos¡¡")
+    let marcaDeportiva = document.createElement("label");
+    contentDeportiva.appendChild(marcaDeportiva);
+    let textDeportivaMarca = document.createTextNode(Deportiva.Marca);
+    marcaDeportiva.appendChild(textDeportivaMarca);
 
-    mostrarToyota ();
+    let modeloDeportiva = document.createElement("label");
+    contentDeportiva.appendChild(modeloDeportiva);
+    let textModelDeportiva = document.createTextNode(Deportiva.Modelo);
+    modeloDeportiva.appendChild(textModelDeportiva);
+
+    let precioDeportiva = document.createElement("label");
+    contentDeportiva.appendChild(precioDeportiva);
+    let textPrecioDeportiva = document.createTextNode(Deportiva.Precio);
+    precioDeportiva.appendChild(textPrecioDeportiva);
+
+    let imgDeportiva = document.createElement("img");
+    contentDeportiva.appendChild(imgDeportiva);
+    imgDeportiva.setAttribute("src", Deportiva.img)
 }
+ let honda = new Motocicleta ("honda", "5", "$ 27.000.000", "img/moto_Honda.png");
+ function validarHonda() {
+     alert (honda.Marca + " " + honda.Modelo + " " + "La moto mas eficaz en la carretera¡¡")
 
-function mostrarToyota () {
-    let contenedorPrinToyota = document.getElementById("main_content");
-    let contentToyota        = document.createElement("div");
-    contenedorPrinToyota.appendChild(contentToyota);
-
-    let marcaToyota = document.createElement("label");
-    contentToyota.appendChild(marcaToyota);
-    let textToyotaMarca = document.createTextNode(toyota.Marca);
-    marcaToyota.appendChild(textToyotaMarca);
-
-    let modeloToyota = document.createElement("label");
-    contentToyota.appendChild(modeloToyota);
-    let textModelToyota = document.createTextNode(toyota.Modelo);
-    modeloToyota.appendChild(textModelToyota);
-
-    let precioToyota = document.createElement("label");
-    contentToyota.appendChild(precioToyota);
-    let textPrecioToyota = document.createTextNode(toyota.Precio);
-    precioToyota.appendChild(textPrecioToyota);
-
-    let imgToyota = document.createElement("img");
-    contentToyota.appendChild(imgToyota);
-    imgToyota.setAttribute("src", toyota.Imagen)
-}
- let chevrolet = new Automovil ("Chevrolet", "Camaro", "$ 274000000", "imagenes/chevrolet_camaro.jpg");
- function validarChevrolet() {
-     alert (chevrolet.Marca + " " + chevrolet.Modelo + " " + "El auto mas eficaz en la carretera¡¡")
-
-     mostarChevrolet();
+     mostrarHonda();
  }
 
-function mostarChevrolet () {
-    let contenedorPrincChevrolet = document.getElementById("main_content");
-    let contnedorChevrolet = document.createElement("div");
-    contenedorPrincChevrolet.appendChild(contnedorChevrolet);
+function mostrarHonda () {
+    let contenedorPrincHonda = document.getElementById("moticos");
+    let contnedorHonda = document.createElement("div");
+    contenedorPrincHonda.appendChild(contnedorHonda);
 
-    let marcaChevrolet = document.createElement("label");
-    contnedorChevrolet.appendChild(marcaChevrolet);
-    let textMarcaChevrolet = document.createTextNode(chevrolet.Marca);
-    marcaChevrolet.appendChild(textMarcaChevrolet);
+    let marcaHonda = document.createElement("label");
+    contnedorHonda.appendChild(marcaHonda);
+    let textMarcaHonda = document.createTextNode(honda.Marca);
+    marcaHonda.appendChild(textMarcaHonda);
 
-    let modeloChevrolet = document.createElement("label");
-    contnedorChevrolet.appendChild(modeloChevrolet);
-    let textModeloChevrolet = document.createTextNode(chevrolet.Modelo);
-    marcaChevrolet.appendChild(textModeloChevrolet);
+    let modeloHonda = document.createElement("label");
+    contnedorHonda.appendChild(modeloHonda);
+    let textModeloHonda = document.createTextNode(honda.Modelo);
+    marcaHonda.appendChild(textModeloHonda);
 
-    let precioChevrolet = document.createElement("label");
-    contnedorChevrolet.appendChild(precioChevrolet);
-    let textPrecioChevrolet = document.createTextNode(chevrolet.Precio);
-    precioChevrolet.appendChild(textPrecioChevrolet);
+    let precioHonda = document.createElement("label");
+    contnedorHonda.appendChild(precioHonda);
+    let textPrecioHonda = document.createTextNode(honda.Precio);
+    precioHonda.appendChild(textPrecioHonda);
 
-    let imgChevrolet = document.createElement("img");
-    contnedorChevrolet.appendChild(imgChevrolet);
-    imgChevrolet.setAttribute("src", chevrolet.Imagen)
+    let imgHonda = document.createElement("img");
+    contnedorHonda.appendChild(imgHonda);
+    imgHonda.setAttribute("src", honda.img)
 }
-
 window.addEventListener("keydown", function(event) {
-    let busqueda = document.getElementById("textoBusqueda").value;
+    let busqueda = document.getElementById("textBusqueda").value;
     if (event.key == "Enter") {
         limpiarVentana();
-        if (busqueda == "Automoviles Disponibles" ) {
-            mostrarVehiculo(auto);
-            mostrarToyota(toyota);
-            mostarChevrolet(chevrolet);
+        if (busqueda == "Motocicletas" ) {
+            mostrarMoto(moto);
+            mostrarDeportiva(Deportiva);
+            mostrarHonda(honda);
         }
-        else if (busqueda == "Mazda 3" ) {
-            mostrarVehiculo(auto);}
+        else if (busqueda == "yamaha" ) {
+            mostrarMoto(moto);}
         
 
-        if (busqueda == "Toyota Prado") {
-            mostrarToyota(toyota);}
+        else if (busqueda == "deportiva") {
+            mostrarDeportiva(Deportiva);}
 
-        else if (busqueda == "Chevrolet Camaro") {
-            mostarChevrolet(chevrolet);
+        else if (busqueda == "honda") {
+            mostrarHonda(honda);
         }
             
         else {
-              this.true;
+            this.true;
         } 
         return this. false.alert("no se han encontrado resultados."); 
     }
 })
-
-
 function limpiarVentana () {
-    document.getElementById("main_content").innerHTML = "" ;
+    document.getElementById("moticos").innerHTML = " " ;
 }

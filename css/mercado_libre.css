@@ -24,30 +24,29 @@
 
 }
  .hijo-1 {
-    grid-area: hijo-2;
+    /* display: block; */
     padding: 20px;
-   
+    grid-area: hijo-1;
    
 }
 .hijo-2{
-     padding: 20px;
-    grid-area: hijo-1;
+    grid-area: hijo-2;
+    padding: 20px;
 }
 .hijo-3{
     grid-area: hijo-3; 
 }
 .bt-menui {
-    border-radius: 14px;
+    border-radius: 20px;
     border: none;
     margin: 15px 15%;
     text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 17px;
     outline: none;
 
 
 }
-
 /* .hijo .hijo-1 {
     /* margin-left: 20%;
     background-color: skyblue; */
