@@ -5,7 +5,7 @@
 
 .bt-menu {
     display: block;
-    padding: 20px;
+    padding: 2  0px;
     color: rgb(49, 47, 47);
     font-size: 30px;
     font-weight: bold;
@@ -19,13 +19,13 @@
                            100px       3fr      100px;
     width: 100%;
     margin: 0 auto;
-    background-color: rgb(243, 247, 8);
+    background-color: rgba(255,241,89,255);
     text-align: center;
 
 }
  .hijo-1 {
     /* display: block; */
-    padding: 20px;
+    padding: 7px;
     grid-area: hijo-1;
    
 }
@@ -37,10 +37,10 @@
     grid-area: hijo-3; 
 }
 .bt-menui {
-    border-radius: 20px;
+    border-radius: 1px;
     border: none;
     margin: 15px 15%;
-    text-align: center;
+    text-align:center;
     font-family: 'Times New Roman', Times, serif;
     font-size: 17px;
     outline: none;
@@ -62,4 +62,84 @@ label {
     font-size: 27px;
 
 }
+.div{
+    border: 1px solid rgba(237,237,237,255);
+    background-color: rgba(237,237,237,255);
+    margin-top: 18px;
+    height: 50%;
+    display: grid;
+    grid-template: "img label1  label" 
+                    "img label2  label" 
+                    "img   label3  label" 
+                    "img   auto   label" auto/
+                     200px    2fr    150px ;
+    cursor: pointer;
 
+}
+.div:hover{
+    transition-duration: 200ms;
+    transform: translate(3px);
+    box-decoration-break: 4px 4px 4px rgb(179, 177, 177);
+    box-shadow: 4px 4px 4px rgb(179, 177, 177);
+    cursor: pointer;
+}
+.label1{
+    grid-area: label1;
+    cursor: pointer;
+}
+
+.label2{
+    grid-area: label2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: gray;
+    cursor: pointer;
+}
+.label3{
+    grid-area: label3;
+    cursor: pointer;
+}
+.img{
+    grid-area: img;
+    padding: 8px;
+}
+.boton2{
+    grid-area: boton2;
+    width: 100%;
+    text-align: left;
+    padding: 10px;
+    border: gainsboro;
+    background-color: rgba(255,241,89,255);
+
+    border-top: 0px ;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 1px solid gray;
+    font-size: 16px;
+    outline: none;
+}
+.main-content2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template:     "icono2     boton2"/
+                        40px       2fr;
+}
+.icono2{
+    grid-area: icono2;
+    padding: 12px;
+    background-color: rgba(255,241,89,255);
+    
+
+    border-top: 0px ;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 1px solid gray;
+    font-size: 16px;
+    outline: none;
+}
+.icono2:hover{
+    background-color: aqua;
+}
+.boton2:hover{
+    background-color: rgb(236, 214, 12);
+}
