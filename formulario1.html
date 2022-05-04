@@ -15,16 +15,22 @@
                 <div class="crear-formulario">
                     <h2>Registro de Productos</h2> 
 
-                   
-                    <label class="valorPro">Codigo </label><input id="codigo" type="text" class="codigoProducto"><br>
+                   <div class="label1">
+                    <label class="valorPro1">Codigo </label> <input id="codigo" type="text" class="codigoProducto"><br>
 
-                    <label class="valorPro">Decripcion</label><input id="caracteristicas" type="text" class="caracteristicasproducto"><br>
+                    <label class="valorPro2">Decripcion</label><input id="caracteristicas" type="text" class="caracteristicasproducto"><br>
+                </div>
+                <div class="label2">
 
-                    <label class="valorProd">valor unitario </label> <input id="valor" type="text" class="valorProducto">
+                    <div class="valorTotal"><label class="valorProd">valor unitario </label>
+                     <input id="valor" type="text" class="valorProducto"></div>
 
-                    <label class="unidadPro">Unidades en stock </label> <input class="unidadesProducto" type="text"  id="UnidadesStock"><br>
+                    <div class="unidadTotal"> <label class="unidadPro">Unidades en stock </label> 
+                    <input id="UnidadesStock" type="text"   class="unidadesProducto"></div>
 
-                    <input id="boton" class="cargar" type="button" value="Cargar Producto" onclick="cargarProducto()">
+                </div>
+                <div class="botonTotal">
+                    <input id="boton" class="cargar" type="button" value="Cargar Producto" onclick="cargarProducto()"></div>
 
                     <div id="tabla-js"></div> 
 

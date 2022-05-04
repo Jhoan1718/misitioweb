@@ -1,4 +1,5 @@
 fieldset {
+    display: grid;
     width: 60%;
     margin: auto;
     display: block;
@@ -17,13 +18,13 @@ h2{
 .caracteristicasproducto {
     padding: 10px;
     margin-bottom: 40px;
-    width: 75%;
+    width: 84%;
     border-radius: 10px;
     border: 1px solid black;
 
 }
 
-.valorPro{
+/* .valorPro{
     
     margin-top: 30px;
     padding: 20px;
@@ -55,7 +56,7 @@ h2{
     border-radius: 10px;
     border: 1px solid black;
 
-}
+} */
 
 
 
@@ -90,16 +91,84 @@ td{
     padding: 10px;
     border-radius: 10px;
     margin-left: 20px;
-}
-#boton {
-    width: 80%;
-    margin-left: 100px;
+}   
+.cargar{
     padding: 15px;
-    background-color: rgb(18, 152, 206);
-    color: white;
+    border-radius: 10px;
+   border: 1px solid black;
+   background-color: rgb(18, 152, 206);
+   width: 80%;
+   
+   text-align: center;
+   margin-left: 10%;
+   color: white;
+   cursor: pointer;
 }
 .cargar{
     display: grid;
     text-align: center;
 
 }
+.label1{
+    display: grid;
+    grid-template: "valorPro1  codigoProducto"
+                    "gridPro2  caracteristicasproducto"/
+                    100px          2fr;
+}
+.valorPro1{
+    grid-area: valorPro1;
+    margin-left: 29px;
+
+}
+.codigoProducto{
+    grid-area: codigoProducto;
+}
+.valorPro2{
+    grid-area: gridPro2;
+    margin-left: 29px;
+}
+.caracteristicasproducto{  
+    grid-area: caracteristicasproducto;
+    margin-left: 20px;
+}
+.label2{
+    flex: auto;
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    grid-template: "valorTotal   unidadTotal "/
+                     1fr           1fr ;
+    
+
+}
+.valorTotal{
+    grid-area: valorTotal;
+}
+.unidadTotal{
+    grid-area: unidadTotal;
+}
+.valorProd{
+ margin-left: 30px;
+
+}
+.valorProducto{
+   padding: 10px;
+    margin-bottom: 40px;
+    width: 40%;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin-left: 30px;
+}
+.unidadPro{
+   
+}
+.unidadesProducto{
+    padding: 10px;
+    margin-bottom: 40px;
+    width: 40%;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin-left: 30px;
+}
+
+
+
