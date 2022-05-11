@@ -11,6 +11,5 @@ fs.readFile('\Aprendices.csv', 'UTF-8', (err,data)=>{
         }
         console.log(data);
     }
-}
-);
+});
     
